@@ -1,0 +1,89 @@
+   32  gem install mongoid
+   80  rvm
+   81  ruby -v
+   82  rvm get head && rvm reload
+   83  rvm install 1.9.3
+   84  rvm install 1.9.3 --with-openssl-dir=$HOME/.rvm/
+   85   rvm use 1.9.3@rails3tutorial2ndEd --create --default
+   86  Using /Users/mhartl/.rvm/gems/ruby-1.9.3 with gemset rails3tutorial2ndEd
+   87  rvm use 1.9.3@rails3tutorial2ndEd --create --default
+  145  bundle install
+  146  rails server
+  186  git add .
+  187  git status
+  188  git commit -m "Release 0"
+  189  git log
+  193  git status
+  194  git checkout -f
+  195  git status
+  197  gem install heroku
+  198  heroku keys:add
+  201  heroku create --stack cedar
+  202  heroku stack --app share-staging
+  203  rvm
+  204  heroku
+  220  vi Gemfile
+  221  bundle install --without production
+  222  git init
+  223  git add .
+  224  git commit -m "R 0.0"
+  225  rails generate scaffold User name:string email:string
+  226  rvm
+  227  rails generate scaffold User name:string email:string
+  228  sudo apt-get install nodejs
+  229  rails generate scaffold User name:string email:string
+  230  bundle exec rake db:migrate
+  231  rails s
+  244  rails generate scaffold Micropost content:string user_id:integer
+  245  bundle exec rake db:migrate
+  249  git push
+  253  bundle install --without production
+  254  git init
+  255  git add .
+  256  git commit -m "Initial"
+  257  git push
+  260  gem install sqlite3 -v 1.3.5
+  263  bundle install --without production
+  264  git add .
+  266  git commit -m "Init 2"
+  319  bundle install --without production
+  320  rails generate rspec:install
+  321  git init
+  322  git add .
+  323  git commit -m "Initial commit"
+  327  git commit -a -m "Improve the README"
+  328  git remote add origin git@github.com:ruimu007/sample_app.git
+  329  git push -u origin master
+  407  bundle exec rspec spec/requests/static_pages_spec.rb
+  424  rails generate integration_test static_pages
+  459  rm spec/requests/static_pages_spec.rb 
+  460  bundle exec rspec spec/requests/static_pages_spec.rb
+  462  rails generate integration_test static_pages
+  496  bundle exec rspec spec/requests/static_pages_spec.rb
+  500  bundle exec rspec spec/requests/static_pages_spec.rb
+  504  rvm get head && rvm reload
+  505  rvm -v
+  506  rvm 1.15.6
+  507  rspec spec/
+  508  rvm get head && rvm reload
+  509  rvm -v
+  510  chmod +x $rvm_path/hooks/after_cd_bundler
+  511  cd ~/rails_projects/sample_app/
+  512  bundle install --without production --binstubs=./bundler_stubs
+  515  vi .gitignore 
+  516  bundle install --binstubs=./bundler_stubs
+  517  bundle --binstubs
+  518  bin/rspec spec/
+  519  bin/rake db:migrate
+  520  vi Gemfile
+  521  bundle install
+  522  history
+  523  bundle exec guard init rspec
+  524  vi Guardfile 
+  525  bundle exec guard
+  526  mkdir spec/routing
+  527  bundle exec guard
+  528  vi Gemfile
+  529  bundle install
+  530  history
+  531  history > his
